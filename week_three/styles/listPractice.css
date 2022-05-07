@@ -1,0 +1,34 @@
+.dataList{
+    background-color: aqua;
+}
+
+.dataList dt {
+    font-weight: 900;
+}
+
+.dataList dd {
+    font-style: italic;
+}
+
+.dataList dt, .dataList dd {
+    color: purple;
+}
+
+.listContainer{
+    width: 90%;
+    margin: 0 auto;
+    background-color: gold;
+    border: red;
+}
+
+/* table styles */
+.table {
+    border: 1px solid purple;
+    padding: 5px;
+}
+
+.table td {
+    border: 1px solid purple;
+    border-collapse: collapse;
+    
+}
