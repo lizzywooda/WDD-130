@@ -1,0 +1,51 @@
+body {
+    background-color: #fca6c9;
+}
+
+.pageContent {
+    text-align: center;
+    width: 450px;
+    margin: 0 auto;
+}
+
+.pageContent ol {
+    text-align: left;
+    font-weight: bold;
+}
+
+.pageContent ol li{
+    line-height: 32px;
+}
+.arialFont{
+    font-family: Arial, sans-serif;
+}
+
+.whiteFont{
+    color: white;
+}
+img {
+    width: 150px;
+}
+
+.quote {
+    margin: 10px 75px;
+    font-size: 35px;
+}
+
+.quote::before {
+    content: '“';
+    margin-right: 5px;
+}
+
+.quote::after {
+    content: '”';
+    margin-left: 5px;
+}
+footer p {
+    font-size: 80%;
+    margin: 3px;
+}
+
+footer {
+    margin: 10px 80px;
+}
