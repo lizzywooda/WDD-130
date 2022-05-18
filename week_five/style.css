@@ -1,0 +1,47 @@
+
+body{
+    margin: 10px auto;
+}
+.top{
+    text-align: center;
+    background-color: red;
+    margin: 0 auto;
+    padding: 45px;
+    width: 50%;
+    height: 30%;
+}
+
+.middle{
+    text-align: center;
+    background-color: blue;
+    margin: 0 auto;
+    padding: 70px;
+    width: 70%;
+    height: 60%;
+}
+
+.bottom{
+    text-align: center;
+    background-color: green;
+    margin: 0 auto;
+    padding: 95px;
+    height: ;
+}
+
+#left{
+    background-color: yellow;
+    float: left;
+    width: 100px;
+    height: 100px;
+
+}
+#right{
+    background-color: yellow;
+    float: right;
+    width: 100px;
+    height: 100px;
+}
+
+section{
+    margin: 100px auto;
+}

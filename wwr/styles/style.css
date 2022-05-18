@@ -1,17 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+
 body {
     background-color: #78C5D7;
+    font-family: 'Lato';
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
 }
 
 header {
     background-color: #FEC172;
+    font-family: 'Lato';
 }
 
 .logo {
     width: 80px;
 }
 
+#logo_link {
+    padding-top: 5px;
+}
+
 .home-title {
     color: black;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4 {
@@ -27,6 +44,7 @@ nav a {
     text-align: center;
     color: #134266;
     text-decoration: none;
+    padding: 35px;
 }
 
 nav a:hover {
@@ -36,14 +54,25 @@ nav a:hover {
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
+
+.home-grid {
+    font-family: "IM Fell French Canon SC";
+}
+
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}   
 
 #hero-msg h1 {
     text-align: center;
+    font-family: "IM Fell French Canon SC";
 }
 
 #hero-msg h4 {
     text-align: center;
+    font-family: 'Lato';
 }
 
 #hero-img {
@@ -52,6 +81,19 @@ nav a:hover {
 
 .msg {
     background-color: #134266;
+    color: #FEC172;
+    line-height: 1.5em;
+    padding: 35px;
+}
+
+.msg h2 {
+    font-family: "IM Fell French Canon SC";
+}
+
+.msg p {
+    font-family: 'Lato';
+    font-size: 0.8em;
+    padding-bottom: 15px;
 }
 
 .button-box {
@@ -66,26 +108,29 @@ main section {
     height: 725px;
 }
 
-.book {
+.book, .join{
     background-color: #5F1919;
     color: #FEC172;
     text-decoration: none;
+    font-family: "Lato";
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
-.book:hover {
+.book:hover, .join:hover {
     background-color: #FEC172;
     color: #5F1919;
 }
 
-.join {
-    background-color: #5F1919;
-    color: #FEC172;
-    text-decoration: none;
+footer {
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
-.join:hover {
-    background-color: #FEC172;
-    color: #5F1919;
+footer .social img {
+    padding-top: 15px;
 }
 
 footer a {
@@ -93,6 +138,14 @@ footer a {
     color: black;
 }
 
-footer h3 a:hover{
+footer h3 a:hover {
     text-decoration: underline;
+}
+
+.card-img{
+    border: 10px solid black;
+}
+
+main section img {
+    box-sizing: border-box;
 }
