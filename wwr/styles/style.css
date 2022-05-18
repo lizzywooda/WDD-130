@@ -8,8 +8,9 @@ body {
     padding: 0;
 }
 
-h2 {
-    margin: 0;
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
 }
 
 header {
@@ -25,21 +26,6 @@ header {
     padding-top: 5px;
 }
 
-.home-title {
-    color: black;
-    font-size: 2em;
-    margin-top: 10px;
-}
-
-h4 {
-    color: black;
-}
-
-#content {
-    max-width: 1600px;
-    margin: 0 auto;
-}
-
 nav a {
     text-align: center;
     color: #134266;
@@ -52,18 +38,17 @@ nav a:hover {
     color: #134266;
 }
 
-.icon {
-    width: 80px;
-    padding-top: 10px;
+h2 {
+    margin: 0;
 }
 
-.home-grid {
-    font-family: "IM Fell French Canon SC";
+h4 {
+    color: black;
 }
 
-.rivers-card, .camping-card, .rapids-card{
-    margin: 200px 0;
-}   
+#hero-img {
+    width: 100%;
+}
 
 #hero-msg h1 {
     text-align: center;
@@ -75,8 +60,45 @@ nav a:hover {
     font-family: 'Lato';
 }
 
-#hero-img {
-    width: 100%;
+.home-title {
+    color: black;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+.button-box {
+    text-align: center;
+}
+
+main section {
+    text-align: center;
+}
+
+main section img {
+    box-sizing: border-box;
+}
+
+.home-grid {
+    font-family: "IM Fell French Canon SC";
+}
+
+.rivers-card,
+.camping-card,
+.rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid black;
+}
+
+.icon {
+    width: 80px;
+    padding-top: 10px;
+}
+
+#background {
+    height: 725px;
 }
 
 .msg {
@@ -96,19 +118,8 @@ nav a:hover {
     padding-bottom: 15px;
 }
 
-.button-box {
-    text-align: center;
-}
-
-main section {
-    text-align: center;
-}
-
-#background {
-    height: 725px;
-}
-
-.book, .join{
+.book,
+.join {
     background-color: #5F1919;
     color: #FEC172;
     text-decoration: none;
@@ -119,7 +130,8 @@ main section {
     border-radius: 5px;
 }
 
-.book:hover, .join:hover {
+.book:hover,
+.join:hover {
     background-color: #FEC172;
     color: #5F1919;
 }
@@ -127,10 +139,6 @@ main section {
 footer {
     padding: 25px 50px;
     margin-top: 200px;
-}
-
-footer .social img {
-    padding-top: 15px;
 }
 
 footer a {
@@ -142,10 +150,6 @@ footer h3 a:hover {
     text-decoration: underline;
 }
 
-.card-img{
-    border: 10px solid black;
-}
-
-main section img {
-    box-sizing: border-box;
+footer .social img {
+    padding-top: 15px;
 }
