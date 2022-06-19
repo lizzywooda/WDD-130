@@ -266,3 +266,36 @@ footer .social img {
         margin-top: 25px;
     }
 }
+
+/* Style for FAQ page */
+.FAQ-grid{
+    display: grid;
+    grid-template-columns: auto;
+    font-family: "IM Fell French Canon SC";
+    margin: auto;
+} 
+
+.FAQ-list{
+    grid-column: 1/2;
+    width: 250px;
+}
+.FAQ-list li{
+    padding-bottom: 10px;
+}
+.FAQ-list h2{
+    padding-top: 20px;
+}
+.answers{
+    grid-column: 2/3;
+    width: 100%;
+}
+
+.answers img{
+    float: right;
+    margin-right: 10px;
+}
+
+.answers p{
+    text-align: left;
+}
+
