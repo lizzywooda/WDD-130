@@ -277,17 +277,30 @@ footer .social img {
 
 .FAQ-list{
     grid-column: 1/2;
-    width: 250px;
+    width: 220px;
+    border-style: solid;
+    font-size: medium;
+    height: 400px;
+    background-color: #134266;
+}
+
+.FAQ-list ul{
+    padding-left: 20px;
 }
 .FAQ-list li{
     padding-bottom: 10px;
+    padding-right: 10px;
+}
+.FAQ-list a{
+    color: #FFFFFF;
 }
 .FAQ-list h2{
     padding-top: 20px;
 }
 .answers{
     grid-column: 2/3;
-    width: 100%;
+    width: auto;
+    margin: 10px;
 }
 
 .answers img{
