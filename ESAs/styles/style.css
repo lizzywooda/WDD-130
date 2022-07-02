@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&family=Permanent+Marker&display=swap');
+/* https://coolors.co/74c4ff-a3c7e3-d1cac7-c1ac9f-b08d76 */
+body{
+    font-size: 22px;
+    margin: 0;
+    height: auto;
+}
+nav{
+    display: grid;
+    background-color: #a3c7e3;
+    color: #a3c7e3;
+    grid-template-columns: repeat(5, 1fr);
+    width: 100%;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+.logo{
+    width: 115px;
+    height: 115px;
+    justify-content: right;
+    margin: auto;
+}
+.content{
+    text-align: center;
+}
+.content p{
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 10px;
+    font-family: "Comic Neue";
+    color: black;
+}
+.content h2{
+    font-family: "Permanent Marker";
+}
+.midp{
+    margin-bottom: 50px;
+}
+.content hr{
+    width: 75%;
+    background-color: #a3c7e3;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+footer{
+    background-color: #a3c7e3;
+    color: #ed9393;
+    padding: 25px 50px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100px;
+}
+footer img{
+    width: 115px;
+    height: 115px;
+    margin-right: 10px;
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+}
