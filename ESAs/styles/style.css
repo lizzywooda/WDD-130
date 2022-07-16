@@ -20,6 +20,7 @@ nav a{
     color: black;
     padding: 25px;
     font-weight: bold;
+    font-family: 'Permanent Marker';
 }
 nav a:hover{
     background-color: #c1ac9f;
@@ -112,3 +113,31 @@ h3{
     font-family: 'Permanent Marker';
 }
 
+.page3{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.img3{
+    grid-column: 1/2;
+    padding-right: 10px;
+    padding-top: 30px;
+    padding-left: 10px;
+}
+
+.par3{
+    grid-column: 2/4;
+    font-family: 'Comic Neue';
+    text-indent: 20px;
+}
+
+.img4{
+    grid-column: 4/5;
+    padding-top: 350px;
+    padding-left: 10px;
+}
+h2{
+    text-align: center;
+    font-family: 'Permanent Marker';
+}
